@@ -1,0 +1,25 @@
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+    "name": "laranja",
+    "price": 5.30
+}
+
+###
+GET http://localhost:3001/products
+
+###
+GET http://localhost:3001/products/bc64edef-32e8-4c45-bdcd-aa2e9c60f0d8
+
+###
+PUT http://localhost:3001/products/bc64edef-32e8-4c45-bdcd-aa2e9c60f0d8
+Content-Type: application/json
+
+{
+    "name": "abacaxi",
+    "price": 4.59
+}
+
+###
+DELETE http://localhost:3001/products/003932f7-8192-4609-8430-0e338a41714e
